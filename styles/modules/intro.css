@@ -12,9 +12,12 @@
 .intro_inner {
     position: relative;
     display: inline-block;
-    margin-top: 100px;
     width: 100%;
-    min-height: 800px;
+    height: 800px;
+}
+
+.intro_text_wrapper {
+    margin-top: 206px;
 }
 
 .intro_women_img {
