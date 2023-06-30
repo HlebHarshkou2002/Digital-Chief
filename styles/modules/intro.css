@@ -1,0 +1,140 @@
+/* Стили для главного блока */
+.intro {
+    font-family: 'Poppins', sans-serif;
+    /* background-image: url('../images/intro/intro-background.jpg'); */
+    background-color: rgb(190,228,249);
+    /* background-repeat: no-repeat;
+    background-size: contain; */
+    min-height: 800px;
+}
+
+/* Стили для внутреннего контента */
+.intro_inner {
+    position: relative;
+    display: inline-block;
+    margin-top: 100px;
+    width: 100%;
+    min-height: 800px;
+}
+
+.intro_women_img {
+    position: absolute;
+    max-width: 100%;
+    bottom: 0;
+    right: 0;
+    margin-right: -180px;
+}
+
+.intro_suptitle_wrapper {
+    position: relative;
+    background-color: #FFA501;
+    height: 36px;
+    width: 36px;
+    border-radius: 100%;
+
+    margin-bottom: 9px;
+}
+
+.intro_suptitle {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0%,-50%);
+    font-size: 16px;
+    font-weight: 700;
+    min-width: 245px;
+}
+
+.intro_title {
+    margin-bottom: 25px;
+    font-weight: 700;
+    line-height: 60px;
+    font-size: 48px;
+}
+
+/* Стили для кнопок */
+
+.btn {
+    width: 135px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.intro_btn {
+    background-color: #FFA501;
+    border: none;
+    margin-right: 44px;
+}
+
+.intro_btn:hover {
+    cursor: pointer;
+}
+
+.about_me {
+    text-decoration: none;
+    color: black;
+}
+
+/* Стили для соц сетей */
+.socials {
+    position: absolute;
+    width: 50px;
+    left: 0;
+    top: 0;
+    height: 500px;
+}
+
+.socials_inner {
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    /* right: 100%; top:0; */
+    right: 0;
+    top: 226px;
+    transform-origin: 100% 100%;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+}
+
+.socials_title span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.socials_title:after {
+    content: "";
+    display: inline-block;
+
+    margin-right: 15px;
+    margin-left: 15px;
+
+    vertical-align: middle;
+    width: 70px;
+    height: 2px;
+    background-color: #000;
+}
+
+.title:after {
+    /* Смещаем правую линию на 100% вправо, чтобы 
+    ** линия встала рядом с текстом справа */
+    margin-right: -100%;
+    /* Указываем в пикселях отступ линии от текста заголовка */
+    right: -14px;
+}
+
+.socials_items {
+    display: flex;
+}
+
+.socials_item {
+    width: 20px;
+    height: 20px;
+    transform: rotate(90deg);
+
+    margin-right: 15px;
+}
+
+.socials_item:last-child {
+    margin-right: 0;
+}
