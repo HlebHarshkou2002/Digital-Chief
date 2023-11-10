@@ -1,0 +1,101 @@
+/* Стили для блока Достижений */
+
+/* Стили непосредственно достижений */
+.advantages__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.advantage {
+    position: relative;
+    width: 425px;
+    height: 343px;
+    border-left: 1px solid #000;
+}
+
+.advantage::before {
+    position: absolute;
+    left: -8px;
+    top: 0;
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #FFA501;
+    border-radius: 100%;
+}
+
+.advantage__title {
+    position: absolute;
+    top: -8px;
+    font-size: 20px;
+    margin-left: 35px;
+}
+
+.advantage__item {
+    display: inline-block;
+    width: 417px;
+    height: 129px;
+    margin-top: 45px;
+    position: relative;
+}
+
+.advantage__item::before {
+    content: "";
+    position: absolute;
+    top: 16px;
+    display: inline-block;
+    width: 43px;
+    height: 1px;
+    background-color: #000;
+}
+
+.advantage__item__wrapper {
+    display: inline-block;
+    margin-left: 42px;
+    width: 375px;
+    height: 129px;
+    overflow: hidden;
+}
+
+.advantage__img__wrapper {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    margin-right: 20px;
+    height: 36px;
+    width: 36px;
+    border-radius: 100%;
+    background-color: #FFA501;
+}
+
+.advantage__img {
+    position: absolute;
+    top: 14px;
+    left: 17px;
+}
+
+
+/* Стили текста достижений */
+.advantage__title__wrapper {
+    display: inline-block;
+}
+
+.advantage__item__title {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.advantage__item__suptitle {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.advantage__item__text {
+    font-size: 12px;
+}

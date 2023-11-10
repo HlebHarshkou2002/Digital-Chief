@@ -1,0 +1,7 @@
+/* Стили для блока Header */
+
+.header {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
