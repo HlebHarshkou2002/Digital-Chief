@@ -1,0 +1,30 @@
+.contacts {
+    margin-top: 120px;
+}
+
+.contacts-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-content__wrapper {
+    width: 585px;
+}
+
+.contacts__text {
+    font-size: 14px;
+}
+
+/* Социальные сети */
+.contacts__socials{
+    display: flex;
+    margin-top: 20px;
+}
+
+.contacts__socials__item {
+    margin-right: 25px;
+}
+
+.contacts__socials__item:last-child{
+    margin-right: 0;
+}
